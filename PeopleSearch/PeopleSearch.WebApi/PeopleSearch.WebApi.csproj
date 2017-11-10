@@ -146,7 +146,7 @@
     <Compile Include="BusinessLogic\IPersonManager.cs" />
     <Compile Include="BusinessLogic\PersonManager.cs" />
     <Compile Include="Common\DateHelper.cs" />
-    <Compile Include="Common\UnityResolver.cs" />
+    <Compile Include="App_Start\UnityResolver.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

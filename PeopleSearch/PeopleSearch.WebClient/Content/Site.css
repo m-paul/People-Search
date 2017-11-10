@@ -110,7 +110,7 @@ body {
     box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
 }
 
-.person-name {
+.search-results .person-name {
     color: rgb(26, 188, 156);
     font-size: 24px;
     font-weight: 500;
@@ -118,6 +118,7 @@ body {
 }
 
 .search-results ul {
-    display:table; 
-    margin:0 auto;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }

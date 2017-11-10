@@ -28,7 +28,8 @@
             </div>
             <div class="col-md-4 text-center">
                 <br />
-                {{row.addressLine1}}<br />
+                {{row.addressLine1}}<br ng-if="row.addressLine2" />
+                {{row.addressLine2}}<br />
                 {{row.city}}, {{row.state}} {{row.zipCode}}<br />
                 Age: {{row.age}}
             </div>

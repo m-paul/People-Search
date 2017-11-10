@@ -1,0 +1,43 @@
+﻿
+<div class="row" ng-if="searchVm.hasError">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="alert alert-danger" role="alert">
+            We ran into an unexpected error. Please contact us if the problem persists.
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="input-group">
+            <span class="input-group-addon">Name Search</span>
+            <input type="text" class="form-control" placeholder="Type first or last name ..."
+                   ng-model="searchVm.criteria.name"
+                   ng-model-options="{ debounce: 500 }"
+                   ng-change="searchVm.search(searchVm.criteria)" />
+        </div>
+    </div>
+</div>
+
+<div class="row search-results" ng-if="searchVm.showResults">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="row" ng-repeat="row in searchVm.data">
+            <div class="col-md-4 text-center">
+                <img ng-src="{{row.imageUrl}}" ng-if="row.imageUrl" />
+                <div class="person-name">{{row.firstName + " " + row.lastName}}</div>
+            </div>
+            <div class="col-md-4">
+                <br />
+                {{row.addressLine1}}<br />
+                {{row.city}}, {{row.state}} {{row.zipCode}}<br />
+                Age: {{row.age}}
+            </div>
+            <div class="col-md-4">
+                <br />
+                <ul ng-repeat="interest in row.interests">
+                    <li>{{interest}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

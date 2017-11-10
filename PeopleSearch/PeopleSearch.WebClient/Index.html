@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>People Search</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="Content/Site.css" />
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="Content/bootstrap-theme.min.css" />
+    
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="App/app.js"></script>
+    <script src="App/Services/overlayService.js"></script>
+    <script src="App/Services/personService.js"></script>
+    <script src="App/Controllers/searchController.js"></script>
+</head>
+<body ng-app="peopleSearchApp">
+
+    <div id="overlay" class="overlay">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>People Search!</h1>
+            <p>Bringing people and metadata together!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -84,8 +84,20 @@ body {
     background-color: rgb(26, 188, 156) !important;
 }
 
+.search-criteria {
+    margin-bottom: 10px
+}
+
 .search-results .row {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .search-results img {
@@ -98,15 +110,14 @@ body {
     box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
 }
 
-.search-results ul,
-.search-results li {
-    margin: 0px;
-}
-
 .person-name {
     color: rgb(26, 188, 156);
     font-size: 24px;
     font-weight: 500;
     margin-top: 5px;
-    margin-bottom: 20px;
+}
+
+.search-results ul {
+    display:table; 
+    margin:0 auto;
 }

@@ -1,5 +1,5 @@
-﻿using PeopleSearch.BusinessLogic;
-using PeopleSearch.Models;
+﻿using PeopleSearch.Web.BusinessLogic;
+using PeopleSearch.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace PeopleSearch.Controllers
+namespace PeopleSearch.Web.Controllers
 {
     public class PersonController : ApiController
     {

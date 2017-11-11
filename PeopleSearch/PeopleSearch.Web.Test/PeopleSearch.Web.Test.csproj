@@ -69,9 +69,9 @@
       <Project>{5c3e09a4-12bb-46c0-92eb-159b6eee42f6}</Project>
       <Name>PeopleSearch.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PeopleSearch\PeopleSearch.csproj">
+    <ProjectReference Include="..\PeopleSearch.Web\PeopleSearch.Web.csproj">
       <Project>{2993397a-74ef-4207-9bbc-9cb67ba7dacd}</Project>
-      <Name>PeopleSearch</Name>
+      <Name>PeopleSearch.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

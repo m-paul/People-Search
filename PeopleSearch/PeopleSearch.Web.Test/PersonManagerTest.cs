@@ -5,11 +5,11 @@ using Rhino.Mocks;
 using System.Collections.Generic;
 using System.Linq;
 using PeopleSearch.DataAccess.Entities;
-using PeopleSearch.Models;
-using PeopleSearch.Controllers;
-using PeopleSearch.BusinessLogic;
+using PeopleSearch.Web.Models;
+using PeopleSearch.Web.Controllers;
+using PeopleSearch.Web.BusinessLogic;
 
-namespace PeopleSearch.Test
+namespace PeopleSearch.Web.Test
 {
     [TestClass]
     public class PersonManagerTest

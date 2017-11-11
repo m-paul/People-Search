@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Serialization;
 using PeopleSearch.DataAccess;
-using PeopleSearch.BusinessLogic;
+using PeopleSearch.Web.BusinessLogic;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -10,7 +10,7 @@ using System.Web.Http;
 using System.Web.Http.Cors;
 using Unity;
 
-namespace PeopleSearch
+namespace PeopleSearch.Web
 {
     public static class WebApiConfig
     {

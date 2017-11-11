@@ -1,10 +1,10 @@
-﻿using PeopleSearch.Models;
+﻿using PeopleSearch.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace PeopleSearch.BusinessLogic
+namespace PeopleSearch.Web.BusinessLogic
 {
     public interface IPersonManager
     {

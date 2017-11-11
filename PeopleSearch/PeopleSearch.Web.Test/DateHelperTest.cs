@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PeopleSearch.Common;
+using PeopleSearch.Web.Common;
 
-namespace PeopleSearch.Test
+namespace PeopleSearch.Web.Test
 {
     [TestClass]
     public class DateHelperTest

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.DataAccess", "PeopleSearch.DataAccess\PeopleSearch.DataAccess.csproj", "{5C3E09A4-12BB-46C0-92EB-159B6EEE42F6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch", "PeopleSearch\PeopleSearch.csproj", "{2993397A-74EF-4207-9BBC-9CB67BA7DACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.DataAccess", "PeopleSearch.DataAccess\PeopleSearch.DataAccess.csproj", "{5C3E09A4-12BB-46C0-92EB-159B6EEE42F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.Test", "PeopleSearch.Test\PeopleSearch.Test.csproj", "{308350F8-C70D-4FC4-A518-2B2745A77F7A}"
 EndProject

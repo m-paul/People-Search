@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.WebClient", "PeopleSearch.WebClient\PeopleSearch.WebClient.csproj", "{0555BD8B-64C6-4723-90F3-E9BA87343632}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.DataAccess", "PeopleSearch.DataAccess\PeopleSearch.DataAccess.csproj", "{5C3E09A4-12BB-46C0-92EB-159B6EEE42F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.WebApi", "PeopleSearch.WebApi\PeopleSearch.WebApi.csproj", "{2993397A-74EF-4207-9BBC-9CB67BA7DACD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch", "PeopleSearch\PeopleSearch.csproj", "{2993397A-74EF-4207-9BBC-9CB67BA7DACD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.WebApi.Test", "PeopleSearch.WebApi.Test\PeopleSearch.WebApi.Test.csproj", "{308350F8-C70D-4FC4-A518-2B2745A77F7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.Test", "PeopleSearch.Test\PeopleSearch.Test.csproj", "{308350F8-C70D-4FC4-A518-2B2745A77F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0555BD8B-64C6-4723-90F3-E9BA87343632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0555BD8B-64C6-4723-90F3-E9BA87343632}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0555BD8B-64C6-4723-90F3-E9BA87343632}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0555BD8B-64C6-4723-90F3-E9BA87343632}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C3E09A4-12BB-46C0-92EB-159B6EEE42F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C3E09A4-12BB-46C0-92EB-159B6EEE42F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C3E09A4-12BB-46C0-92EB-159B6EEE42F6}.Release|Any CPU.ActiveCfg = Release|Any CPU

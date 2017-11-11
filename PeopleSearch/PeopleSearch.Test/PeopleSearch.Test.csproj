@@ -6,8 +6,8 @@
     <ProjectGuid>{308350F8-C70D-4FC4-A518-2B2745A77F7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PeopleSearch.WebApi.Test</RootNamespace>
-    <AssemblyName>PeopleSearch.WebApi.Test</AssemblyName>
+    <RootNamespace>PeopleSearch.Test</RootNamespace>
+    <AssemblyName>PeopleSearch.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -61,6 +61,7 @@
     <Compile Include="DateHelperTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,9 +69,9 @@
       <Project>{5c3e09a4-12bb-46c0-92eb-159b6eee42f6}</Project>
       <Name>PeopleSearch.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PeopleSearch.WebApi\PeopleSearch.WebApi.csproj">
+    <ProjectReference Include="..\PeopleSearch\PeopleSearch.csproj">
       <Project>{2993397a-74ef-4207-9bbc-9cb67ba7dacd}</Project>
-      <Name>PeopleSearch.WebApi</Name>
+      <Name>PeopleSearch</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

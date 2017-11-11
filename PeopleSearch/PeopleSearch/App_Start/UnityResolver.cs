@@ -5,7 +5,7 @@ using System.Web.Http.Dependencies;
 using Unity;
 using Unity.Exceptions;
 
-namespace PeopleSearch.WebApi
+namespace PeopleSearch
 {
     public class UnityResolver : IDependencyResolver
     {

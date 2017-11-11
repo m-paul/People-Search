@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Web;
 
-namespace PeopleSearch.WebApi.Models
+namespace PeopleSearch.Models
 {
     [DataContract]
     [Serializable]

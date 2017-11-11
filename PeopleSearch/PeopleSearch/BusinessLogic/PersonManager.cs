@@ -1,12 +1,12 @@
 ﻿using PeopleSearch.DataAccess;
 using PeopleSearch.DataAccess.Entities;
-using PeopleSearch.WebApi.Models;
+using PeopleSearch.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace PeopleSearch.WebApi.BusinessLogic
+namespace PeopleSearch.BusinessLogic
 { 
     public class PersonManager : IPersonManager
     {
